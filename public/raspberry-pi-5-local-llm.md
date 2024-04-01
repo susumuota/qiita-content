@@ -4,7 +4,7 @@ tags:
   - Ubuntu
   - RaspberryPi
   - LLM
-  - LLaMA
+  - gemma
   - llama.cpp
 private: false
 updated_at: '2024-04-01T22:58:08+09:00'
