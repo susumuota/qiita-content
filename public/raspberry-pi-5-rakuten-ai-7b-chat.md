@@ -1,5 +1,5 @@
 ---
-title: raspberry-pi-5-rakuten-ai-7b-chat
+title: Raspberry Pi 5 で高性能な日本語 LLM RakutenAI-7B-chat を動かす
 tags: ["RaspberryPi", "LLM", "機械学習", "RaspberryPi5", "llama.cpp"]
 private: false
 updated_at: ''
