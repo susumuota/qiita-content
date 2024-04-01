@@ -7,7 +7,7 @@ tags:
   - llama.cpp
   - raspberrypi5
 private: false
-updated_at: '2024-04-01T23:52:54+09:00'
+updated_at: '2024-04-01T23:57:54+09:00'
 id: 66585baa0ec8e38e3367
 organization_url_name: null
 slide: false
