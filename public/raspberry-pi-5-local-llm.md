@@ -1,9 +1,14 @@
 ---
-title: "Raspberry Pi 5にUbuntuをヘッドレスでセットアップしてローカルLLMを動かす"
-tags: ["RaspberryPi", "LLM", "Ubuntu", "Llama", "llama.cpp"]
+title: Raspberry Pi 5にUbuntuをヘッドレスでセットアップしてローカルLLMを動かす
+tags:
+  - Ubuntu
+  - RaspberryPi
+  - LLM
+  - LLaMA
+  - llama.cpp
 private: false
-updated_at: ""
-id: null
+updated_at: '2024-04-01T22:16:03+09:00'
+id: 437d4d5692b7bf010640
 organization_url_name: null
 slide: false
 ignorePublish: false
