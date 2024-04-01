@@ -3,11 +3,11 @@ title: Raspberry Pi 5にUbuntuをヘッドレスでセットアップしてロ�
 tags:
   - Ubuntu
   - RaspberryPi
+  - Gemma
   - LLM
-  - gemma
   - llama.cpp
 private: false
-updated_at: '2024-04-01T23:57:54+09:00'
+updated_at: '2024-04-02T00:00:59+09:00'
 id: 437d4d5692b7bf010640
 organization_url_name: null
 slide: false
