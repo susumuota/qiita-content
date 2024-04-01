@@ -13,9 +13,6 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-
-# Raspberry Pi 5にUbuntuをヘッドレスでセットアップしてローカルLLMを動かす
-
 ## 概要
 
 - Raspberry Pi 5 / 8Gをヘッドレスでセットアップ(つなぐのは電源ケーブルだけ)

@@ -13,9 +13,6 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-
-# Raspberry Pi 5 で高性能な日本語 LLM RakutenAI-7B-chat を動かす
-
 ## 概要
 
 - Raspberry Pi 5 / 8GBで日本語LLM RakutenAI-7B-chatの量子化モデルを動かす手順
