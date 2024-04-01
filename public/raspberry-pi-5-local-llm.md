@@ -20,7 +20,7 @@ ignorePublish: false
 - サーバ設定(自動マウント, スワップファイル, Samba, Apache)
 - Python開発環境(pyenv, Poetry)
 
-![qa by llama.cpp with gemma-2b-it](/images/llama-cpp-gemma-2b-it-qa.png)
+![qa by llama.cpp with gemma-2b-it](https://raw.githubusercontent.com/susumuota/zenn-content/main/images/llama-cpp-gemma-2b-it-qa.png)
 
 ## ハードウェア
 
@@ -323,7 +323,7 @@ gemmaの場合は以下のように設定。
 
 `Say something...` のところに `Summarize this text. (要約したい文章)` を入力して `Send` ボタンを押すと `model:` 以下に返答が表示される。
 
-![summarize text by llama.cpp with gemma-2b-it](/images/llama-cpp-gemma-2b-it-summarize.png)
+![summarize text by llama.cpp with gemma-2b-it](https://raw.githubusercontent.com/susumuota/zenn-content/main/images/llama-cpp-gemma-2b-it-summarize.png)
 
 > **Note**: 次節以降の作業はローカルLLMには関係なく、Raspberry Piをサーバとして運用する際のよくある設定のメモ。
 
