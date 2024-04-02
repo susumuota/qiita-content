@@ -53,11 +53,11 @@ ignorePublish: false
 
 以下記事を参考にRaspberry Pi 5をセットアップし、 `llama.cppのインストール` まで実行したものとして進める。
 
-- https://zenn.dev/susumuota/articles/raspberry-pi-5-local-llm
+- https://qiita.com/susumuota/items/437d4d5692b7bf010640
 
 また、ハードウェア構成は以下ページに記述、合計2万円程度でセットアップ可能。
 
-- https://zenn.dev/susumuota/articles/raspberry-pi-5-local-llm#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2
+- https://qiita.com/susumuota/items/437d4d5692b7bf010640#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2
 
 なお、macOS等の環境でも同様に`llama.cpp`をセットアップすれば実行可能。メモリ16GBのMacBook Pro 13-inch 2020 (Intel Core i5)で動作確認済み。
 
