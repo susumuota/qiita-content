@@ -27,7 +27,7 @@ ignorePublish: false
 
 ### Rakutenのプレスリリースより
 
-- https://corp.rakuten.co.jp/news/press/2024/0321_01.html
+https://corp.rakuten.co.jp/news/press/2024/0321_01.html
 
 > 「Rakuten AI 7B」は、フランスのAIスタートアップであるMistral AI社のオープンモデル「Mistral-7B-v0.1」（注4）を基に、継続的に大規模なデータを学習させて開発された70億パラメータの日本語基盤モデルです。
 
@@ -41,7 +41,7 @@ ignorePublish: false
 
 ### WandBの[Nejumi LLMリーダーボード Neo](https://wandb.ai/wandb-japan/llm-leaderboard/reports/Nejumi-Leaderboard-Neo--Vmlldzo2MTkyMTU0)による RakutenAI-7B-chat の評価
 
-- https://twitter.com/olachinkei/status/1771151337709035911
+https://twitter.com/olachinkei/status/1771151337709035911
 
 > 特にRakuten/RakutenAI-7B-chatはMT-benchでのスコアがよく、7B級のモデルの中ではnejumi.aiの評価ベンチマークのスコアで上位のパフォーマンスを達成しています
 
@@ -53,11 +53,9 @@ ignorePublish: false
 
 以下記事を参考にRaspberry Pi 5をセットアップし、 `llama.cppのインストール` まで実行したものとして進める。
 
-- https://qiita.com/susumuota/items/437d4d5692b7bf010640
+https://qiita.com/susumuota/items/437d4d5692b7bf010640
 
-また、ハードウェア構成は以下ページに記述、合計2万円程度でセットアップ可能。
-
-- https://qiita.com/susumuota/items/437d4d5692b7bf010640#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2
+また、ハードウェア構成は[このセクション](https://qiita.com/susumuota/items/437d4d5692b7bf010640#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2)を参照。合計2万円程度でセットアップ可能。
 
 なお、macOS等の環境でも同様に`llama.cpp`をセットアップすれば実行可能。メモリ16GBのMacBook Pro 13-inch 2020 (Intel Core i5)で動作確認済み。
 
@@ -68,12 +66,18 @@ ignorePublish: false
 以下の資料を参考にセットアップを進める。
 
 - RakutenのHuggingFaceリポジトリ
-  - https://huggingface.co/Rakuten/RakutenAI-7B-chat
+
+https://huggingface.co/Rakuten/RakutenAI-7B-chat
+
 - 量子化モデル(非公式)
-  - https://huggingface.co/mmnga/RakutenAI-7B-chat-gguf
+
+https://huggingface.co/mmnga/RakutenAI-7B-chat-gguf
+
 - 自分で量子化したい場合は以下を参考に
-  - https://github.com/ggerganov/llama.cpp?tab=readme-ov-file#prepare-and-quantize
-  - https://zenn.dev/saldra/articles/2598836233f555
+
+https://github.com/ggerganov/llama.cpp?tab=readme-ov-file#prepare-and-quantize
+
+https://zenn.dev/saldra/articles/2598836233f555
 
 > **Note**: この記事で実行するのはRakutenが公式にリリースしたモデルではなく非公式の量子化されたモデルであるため、性能や不具合は量子化による可能性があることに注意。
 
@@ -150,8 +154,9 @@ sudo reboot
 
 サーバを起動。チャットテンプレートは該当するものがないが、Mistral が `llama2` なのでそれを指定。
 
-- https://github.com/ggerganov/llama.cpp/tree/master/examples/server
-- https://github.com/ggerganov/llama.cpp/wiki/Templates-supported-by-llama_chat_apply_template
+https://github.com/ggerganov/llama.cpp/tree/master/examples/server
+
+https://github.com/ggerganov/llama.cpp/wiki/Templates-supported-by-llama_chat_apply_template
 
 ```bash
 ./server -t 4 -c 8192 -m "models/RakutenAI-7B-chat-q6_K.gguf" --chat-template "llama2" --port 8080 --host 0.0.0.0
@@ -213,7 +218,7 @@ The training of large language models (LLMs) is expensive. In this paper, we stu
 
 以下ページ(若干昔のページなので現在はもっと改善している可能性あり)によると、
 
-- https://github.com/ggerganov/llama.cpp/pull/1684
+https://github.com/ggerganov/llama.cpp/pull/1684
 
 ![model size vs perplexity](https://raw.githubusercontent.com/susumuota/zenn-content/main/images/llama-cpp-model-size-perplexity.png)
 
